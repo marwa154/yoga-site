@@ -818,3 +818,80 @@ img {
  
 }
 
+
+/*=============== FOOTER ===============*/
+.footer {
+  background-color: var(--first-color-dark);
+  color: var(--text-color-light);
+  padding-block: 3rem 2rem;
+}
+
+.footer__content,
+.footer__data {
+  row-gap: 2.5rem;
+}
+
+.footer__content {
+  border-bottom: 1px solid var(--text-color-light);
+  padding-bottom: 2.5rem;
+}
+
+.footer__logo,
+.footer__social-link {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.footer__logo,
+.footer__title {
+  font-size: var(--h2-font-size);
+  font-family: var(--second-font);
+  margin-bottom: 1.25rem;
+}
+
+.footer__logo {
+  display: inline-block;
+  font-weight: var(--font-medium);
+}
+
+.footer__title {
+  color: var(--white-color);
+}
+
+.footer__social-link {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.5rem;
+  transition: transform .4s;
+  text-decoration: none;
+}
+
+.footer__social-link:hover {
+  transform: translateY(-.25rem);
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.footer__copy {
+  font-size: var(--smaller-font-size);
+}
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(260, 16%, 75%);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: .5rem;
+  background-color: hsl(260, 16%, 65%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(260, 16%, 55%);
+}
+
