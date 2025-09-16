@@ -76,6 +76,11 @@ button {
 .container {
   max-width: 1120px;
 }
+@media screen and (min-width: 2000px) {
+  .container {
+    max-width: 1250px;
+  }
+}
 .grid {
   display: grid;
   gap: 1.5rem;
@@ -481,8 +486,110 @@ img {
   }
 }
 
-@media screen and (min-width: 2000px) {
-  .container {
-    max-width: 1250px;
+
+
+
+/*=============== LIST ===============*/
+.list__content,
+.list__blob {
+  display: flex;
+}
+
+.list__content {
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+
+.list__number {
+  font-size: var(--big-font-size);
+  font-family: var(--second-font);
+  font-weight: var(--font-medium);
+}
+
+.list__blob {
+  background-color: var(--first-color-light);
+  width: 230px;
+  height: 100px;
+  border-radius: 12.5rem;
+  align-items: center;
+  justify-content: center;
+  transition: background .4s;
+}
+
+.list__blob img {
+  width: 180px;
+  transform: translateY(-1rem);
+}
+.list__data {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  row-gap: 5rem;
+}
+
+.list__description {
+  position: relative;
+}
+
+.list__description img {
+  position: absolute;
+  width: 50px;
+  top: -1.8rem;
+  left: 0;
+}
+
+.list__button {
+  position: relative;
+  padding: 0;
+}
+
+
+.list__button,
+.list__button i {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.list__button img {
+  position: absolute;
+  max-width: initial;
+  width: 150px;
+  left: -2.8rem;
+}
+@media screen and (max-width: 345px) {
+
+  .list__content {
+    flex-direction: column;
+    row-gap: 2rem;
+  }}
+
+  
+@media screen and (min-width: 1152px) {
+  .list__content {
+    column-gap: 2rem;
+  }
+
+  .list__blob {
+    width: 400px;
+    height: 180px;
+  }
+
+  .list__blob img {
+    width: 350px;
+    transform: translateY(-2rem);
+  }
+
+  .list__data {
+    grid-template-columns: 340px max-content;
+    column-gap: 3rem;
+  }
+
+  .list__description img {
+    width: 64px;
+    top: -2.5rem;
+    left: -1rem;
   }
 }
