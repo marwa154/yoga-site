@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "number": "#01",
+    "title": "Yoga Classes",
+    "description": "Get a list of specific influencers in your niche at your fingertips so you can focus on managing your status.",
+    "image": "/assets/img/list-yoga.png"
+  },
+  {
+    "id": 2,
+    "number": "#02",
+    "title": "Health & Fitness",
+    "description": "Bring happiness to good health with our comprehensive fitness programs designed for your wellbeing.",
+    "image": "/assets/img/list-yoga.png"
+
+  },
+  {
+    "id": 3,
+    "number": "#03",
+    "title": "Routine Training",
+    "description": "Anytime, any place, any workout. Take your routine at any time of your day with professional guidance.",
+    "image": "/assets/img/list-yoga.png"
+  }
+]
