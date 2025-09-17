@@ -58,7 +58,7 @@ const NavBar = () => {
                 }}
               ></button>
               <li className="nav-item">
-                <Link to="/" className={`nav-link ${isActive('/')}`}>Home</Link>
+                <a href="/" className={`nav-link ${isActive('/')}`}>Home</a>
               </li>
 
               <li className="nav-item">

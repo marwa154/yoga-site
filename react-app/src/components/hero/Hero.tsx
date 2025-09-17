@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import './hero.css';
+import Button from '../common/button/Button';
 const Hero = () => {
   return (
     <section className="home section" id="home">
@@ -28,15 +29,9 @@ const Hero = () => {
                 <img src="/assets/img/circle-img.svg" alt="Circle decoration" />
               </p>
 
-              <motion.a
-                href="#"
-                className="button"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
+              <Button>
                 Get Started Free <i className="ri-arrow-right-line"></i>
-              </motion.a>
-
+              </Button>
               <div className="home__box">
                 <div>
                   <h3>300+</h3>
