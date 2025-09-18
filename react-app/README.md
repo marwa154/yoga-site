@@ -1,6 +1,6 @@
 # Yoga Website - ReactJS Version
 
-Une application web responsive pour un site de yoga, développée avec ReactJS et utilisant Framer Motion pour les animations.
+Une application web responsive pour un site de yoga, développée avec ReactJS et Bootstrap en utilisant Framer Motion pour les animations.
 
 ## 🚀 Fonctionnalités
 
