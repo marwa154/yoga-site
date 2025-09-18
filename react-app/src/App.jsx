@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import "./index.css";
 import './app.css'
+
 function App() {
   return (
     <Router>

@@ -6,6 +6,7 @@ import ServiceCard from '../components/serviceCard/ServiceCard';
 import Health from '../components/health/Health';
 import Routine from '../components/routine/Routine';
 import Follow from '../components/follow/Follow';
+import JoinForm from '../components/joinForm/JoinForm';
 
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,6 +30,7 @@ export default function Home() {
       <Health />
       <Routine />
       <Follow />
+      <JoinForm/>
     </Layout>
   );
 }

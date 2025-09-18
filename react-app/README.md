@@ -33,7 +33,7 @@ Une application web responsive pour un site de yoga, développée avec ReactJS e
 ### Installation
 ```bash
 # Cloner le projet
-git clone [url-du-repo]
+git clone https://github.com/marwa154/yoga-site.git
 
 # Aller dans le dossier react-app
 cd react-app
@@ -60,12 +60,15 @@ react-app/
 │   └── assets/          # Images et CSS réutilisés
 ├── src/
 │   ├── components/      # Composants réutilisables
-│   │   ├── Header.jsx
-│   │   ├── Hero.jsx
-│   │   ├── ServiceCard.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Newsletter.jsx
-│   │   └── ContactForm.jsx
+│   │   ├── common
+│   │   ├── navBar
+│   │   ├── hero
+│   │   ├── serviceCard
+│   │   ├── health
+│   │   ├── routine
+│   │   ├── follow
+│   │   ├── Footer
+│   │   └── contactForm
 │   ├── pages/           # Pages de l'application
 │   │   ├── Home.jsx
 │   │   └── Contact.jsx
@@ -110,19 +113,22 @@ react-app/
 ## 📱 Captures d'Écran
 
 ### Desktop - Light Mode
-![Desktop Light](screenshots/desktop-light.png)
+![Desktop Light](screenshots/desktop-light.jpeg)
 
 ### Desktop - Dark Mode
-![Desktop Dark](screenshots/desktop-dark.png)
+![Desktop Dark](screenshots/desktop-dark.jpeg)
 
 ### Mobile - Light Mode
-![Mobile Light](screenshots/mobile-light.png)
+![Mobile Light](screenshots/mobile-light.jpeg)
 
 ### Mobile - Dark Mode
-![Mobile Dark](screenshots/mobile-dark.png)
+![Mobile Dark](screenshots/mobile-dark.jpeg)
 
-### Page Contact
-![Contact Page](screenshots/contact-page.png)
+### Desktop Page Contact
+![Contact Page](screenshots/contact-page-desktop.jpeg)
+
+### Mobile Page Contact
+![Contact Page](screenshots/contact-page.jpeg)
 
 ## 🎯 Options du Challenge Avancé
 
@@ -174,9 +180,6 @@ Les variables CSS sont définies dans `/public/assets/css/styles.css` :
 4. Push vers la branche (`git push origin feature/AmazingFeature`)
 5. Ouvrir une Pull Request
 
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👨‍💻 Auteur
 
@@ -184,4 +187,4 @@ Développé avec ❤️ pour le test technique Yoga Website
 
 ---
 
-**Note** : Ce projet réutilise les assets CSS et images du projet HTML/CSS original pour maintenir la cohérence visuelle et éviter la duplication de code.
+**Note** : Ce projet a été entièrement refactorisé en ReactJS afin de démontrer la modularité des composants, la gestion d’état, ainsi que l’intégration d’animations modernes avec Framer Motion, tout en respectant le design initial.

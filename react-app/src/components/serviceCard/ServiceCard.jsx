@@ -7,10 +7,10 @@ const ServiceCard = ({ service, index, onNext }) => {
     <motion.section
       className="list section"
       key={service.id}
-      initial={{ opacity: 0, x: 100 }}
-      animate={{ opacity: 1, x: 0 }}
-      exit={{ opacity: 0, x: -100 }}
-      transition={{ duration: 0.6 }}
+      initial={{ opacity: 0, x: 100 }}                
+      whileInView={{ opacity: 1, x: 0 }} 
+      transition={{ duration: 0.6, delay: index * 0.2 }} 
+      viewport={{ once: false, amount: 0.2 }} 
     >
       <div className="container">
         <div className="row align-items-center">
