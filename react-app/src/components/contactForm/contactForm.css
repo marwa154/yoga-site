@@ -1,0 +1,79 @@
+.contact__form {
+ background: var(--gradient-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px hsla(260, 100%, 52%, 0.1);
+  transition: background 0.4s;
+  margin-bottom: 120px;
+}
+
+.contact__input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid var(--first-color-light);
+  border-radius: 5rem;
+  background-color: white;
+  color: var(--text-color);
+  font-size: var(--normal-font-size);
+  transition: border-color 0.3s, background 0.4s;
+  margin-bottom: 1rem;
+}
+
+.contact__input:focus {
+  outline: none;
+  border-color: var(--first-color);
+}
+
+.contact__input.error {
+  border-color: hsl(0, 100%, 60%);
+}
+
+.contact__textarea {
+  resize: vertical;
+  min-height: 120px;
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid var(--first-color-light);
+  border-radius: 1rem;
+  background-color: white;
+  color: var(--text-color);
+  font-size: var(--normal-font-size);
+  transition: border-color 0.3s, background 0.4s;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.contact__error {
+  color: hsl(0, 100%, 60%);
+  font-size: var(--small-font-size);
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact__success {
+  background-color: hsl(120, 100%, 95%);
+  color: hsl(120, 100%, 30%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.dark-theme .contact__success {
+  background-color: hsl(120, 50%, 20%);
+  color: hsl(120, 100%, 70%);
+}
+.button__Contact {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid var(--first-color-light);
+  border-radius: 5rem;
+  background-color: white;
+  color: var(--text-color);
+  font-size: var(--normal-font-size);
+  margin-bottom: 1rem;
+}
+  @keyframes spin {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+        }

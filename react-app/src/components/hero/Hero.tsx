@@ -12,6 +12,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
+                 viewport={{ once: false, amount: 0.2 }} 
             >
               <h1 className="home__title">
                 Choose Your
@@ -52,6 +53,7 @@ const Hero = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
+                 viewport={{ once: false, amount: 0.2 }} 
             />
           </div>
         </div>
