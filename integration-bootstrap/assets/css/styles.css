@@ -445,10 +445,13 @@ img {
 
 @media screen and (min-width: 1024px) {
   .section__title,
-  .home__data {
+  .home__data,
+  .routine__data {
     text-align: initial;
   }
-
+ .routine__description {
+    text-align: initial;
+  }
   .home__img {
     display: flex;
     max-width: 400px;
